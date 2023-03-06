@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 100vh;
+    width: 100%; 
+    font-size: 25px; 
+    background-image: url(https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80); 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.navbar-brand{
+    color: crimson;
+    font-size: 70px;
+    font-family: 'Lobster Two', 'cursive';
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: crimson;
+    transition: .2s;
+}
+button{
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background-color:red;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+h1{
+    color:black;
+    font-size: 30px;
+    padding: 60px 200px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+h4{
+font-size: 40px;
+text-align: center;
+padding: 60px 3o0px;
+margin-top: 100px;
+}
+
+span{
+    color:brown;
+}
+p{
+    text-align: center;
+}
+.about h2{
+    font-size: 50px;
+    font-family: 'Vidaloka', serif;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding-left: 800px;
+    margin-top: 70px ;
+    
+    
+}
+.about{
+    margin-left: 500px;
+    margin-top: 80px;
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700px;
+    color: black;
+    
+}
+
+.img {
+    border-radius: 150px;
+    max-width: 300px;
+    font-family: arial;
+   padding: 2px 50px;
+   margin-top: -200px;
+   margin-left: 100px;
+
+  }
+  
+.title{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 400px;
+    margin-left: 150px;
+
+  }
+  .btn{
+    display:flex;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 10%;
+    margin-left: 800px;
+    border: none;   
+    margin-top: 50px;
+  }
+  
+
+.container {
+    width: 40%; 
+    background-color:lightgray;
+    margin-left: 600px;
+    margin-top: .5px;
+
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+    
+  }
+  
+  .html {width: 90%; background-color: #1608dd;} 
+  .css {width: 80%; background-color: #23e909;} 
+  .js {width: 65%; background-color: #d4147e;}
+  
+
+
+
+
+
+  h5{
+    margin-left: 400px;
+    margin-top: 80px;
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 900px;
+    color: goldenrod;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    margin-top: 40px
+  }
+  
+  
